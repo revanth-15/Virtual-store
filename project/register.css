@@ -1,0 +1,67 @@
+
+
+
+
+caption{
+	display: table-caption;
+	text-align: center;
+	font-size: 28px;
+	color:white;
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+
+input[type=text],input[type=number],input[type=age],input[type=mail],input[type=password]{
+
+	width: 100%;
+	padding: 10px;
+	border:0px solid;
+	border-bottom:1px solid white;
+	background-color: transparent;
+	color:1px solid white;
+	margin-left: auto;
+	outline: none;
+}
+
+
+td{
+
+	padding: 15px;
+}
+
+select,input[type=date]{
+
+	background-color: transparent;
+	position: relative;
+	padding: 5px;
+	display: inline-block;
+	width:44%;
+	outline: 0px;
+
+}
+
+
+input[type=submit]{
+
+	position: relative;
+	background-color:#4CAF50;
+	border: none;
+	padding: 8px 20px;
+	font-size: 16px;
+	align-self: center;
+	border-radius: 18px;
+	
+}
+
+
+
+input[type=submit]:hover{
+
+	background-color: yellow;
+	color: white;
+	cursor: pointer;
+	align-self: center;
+	border-radius: 18px;
+	
+}
